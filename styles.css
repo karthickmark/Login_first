@@ -1,0 +1,66 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+body{
+    background-image: url(./pika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    color: white;
+}
+.logo{
+    border-bottom: 3px solid brown;
+    color: aqua;
+    padding: 0px 1px;
+}
+.log{
+    display: inline-flex;
+    background-color: white;
+    flex-direction: column;
+    border-bottom: 2px solid saddlebrown;
+    border-radius: 8px;
+    padding-left: 5px;
+}i{
+    color: tomato;
+}
+.contain{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+    margin-top: 100px;
+}
+a{
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    color: tomato;
+
+}
+.contain input,button{
+    border-radius: 8px;
+    padding: 6px;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+.contain div,h3,button,p{
+    margin-bottom: 30px;
+}
+
+.aft{
+    color: black;
+    padding: 30px;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 250px;
+    background-color: rgba(240, 255, 255, 0.719);
+}
+.aft h1{
+    padding: 20px;
+}
